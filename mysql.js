@@ -3,7 +3,7 @@
 const mysql = require("mysql2/promise"); // Promise 기반 API를 사용
 
 const dbInfo = {
-    host: "127.0.0.1",  // 데이터베이스 주소
+    host: "localhost",  // 데이터베이스 주소
     port: 3306,         // 데이터베이스 포트
     user: "root",       // 로그인 계정
     password: "1234",   // 비밀번호
