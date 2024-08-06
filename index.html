@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <section class="book_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form id="inputForm" aciton="#">
+            <h4>
+              ★ Gutter 동아리 신청서 ★ 
+              <!-- <span>   Gutter Club</span> -->
+            </h4>
+            <div class="form-row ">
+              <div class="form-group col-lg-4">
+                <label for="inputName">이름 </label>
+                <input type="text" class="form-control" id="inputName" name="inputName" placeholder="ex.홍길동">
+              </div>
+              <div class="form-group col-lg-4">
+                <label for="inputGender">성별</label>
+                <select name="inputGender" class="form-control wide" id="inputGender">
+                  <option value="Select ">선택하세요 </option>
+                  <option value="남자 "> 남자 </option>
+                  <option value="여자 "> 여자 </option>
+                </select>
+                <!-- <input type="text" class="form-control" id="inputGender" name="inputGender" placeholder=""> -->
+              </div>
+              <div class="form-group col-lg-4">
+                <label for="inputName">학번 </label>
+                <input type="text" class="form-control" id="inputStudentnumber" name="inputStudentnumber" placeholder="ex.2020xxxxx">
+              </div>
+              <!-- <div class="form-group col-lg-4">
+                <label for="inputExperience">볼링 경험</label>
+                <select name="inputExperience" class="form-control wide" id="inputExperience">
+                  <option value="Select ">선택하세요 </option>
+                  <option value="거의 경험 없음 ">거의 경험 없음 </option>
+                  <option value="마이볼 소유 X, 취미로만 ">마이볼 소유 X, 취미로만 </option>
+                  <option value="마이볼 소유 O ">마이볼 소유 O </option>
+                </select> -->
+                <!-- <input type="text" class="form-control" id="inputExperience" name="inputExperience" placeholder=""> -->
+              <!-- </div> -->
+            </div>
+            <div class="form-row ">
+              <div class="form-group col-lg-4">
+                <label for="inputPhone">휴대폰 번호</label>
+                <input type="text" class="form-control" id="inputPhone" placeholder="ex.XXX-XXXX-XXXX" name="inputPhone">
+              </div>
+              <div class="form-group col-lg-4">
+                <label for="inputAge">나이</label>
+                <input type="text" class="form-control" id="inputAge" placeholder="ex.20" name="inputAge">
+              </div>
+              <div class="form-group col-lg-4">
+                <label for="inputMajor">전공(학과) </label>
+                <input type="text" class="form-control" id="inputMajor" placeholder="학과를 입력하세요" name="inputMajor">
+              </div>
+            </div>
+            <div class="btn-box">
+              <button type="submit" class="btn ">Submit Now</button>
+            </div>
+
+          </form>
+          <button id="bringButton" class="btn ">가져오기</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="js/script.js"></script>
+</html>
