@@ -8,7 +8,7 @@ const dbInfo = {
     // user: "root",       // 로그인 계정
     // password: "1234",   // 비밀번호
     // database: "PKNU_DATA", // 엑세스할 데이터베이스
-    host: process.env.DB_HOST || "localhost",  // 데이터베이스 주소
+    host: process.env.DB_HOST || "port-0-ptc-lxn0e9ec59e35a43.sel5.cloudtype.app",  // 데이터베이스 주소
     port: process.env.DB_PORT || 3306,         // 데이터베이스 포트
     user: process.env.DB_USER || "root",       // 로그인 계정
     password: process.env.DB_PASSWORD || "1234",   // 비밀번호
