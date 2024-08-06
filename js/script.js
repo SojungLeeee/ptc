@@ -1,7 +1,4 @@
 
-const serverUrl = "https://port-0-ptc-lxn0e9ec59e35a43.sel5.cloudtype.app";
-
-
 
 document.getElementById('inputForm').addEventListener('submit', async function(event) {
     event.preventDefault(); // 폼 제출 방지
@@ -22,7 +19,7 @@ document.getElementById('inputForm').addEventListener('submit', async function(e
 
     // 서버로 데이터 전송
     try {
-        const response = await fetch(`${serverUrl}/submit`, {
+        const response = await fetch('/submit', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
