@@ -9,7 +9,7 @@ const db = require("./mysql"); // 수정된 mysql.js 모듈
 const app = express();
 
 const port = process.env.PORT|| 3030;
-const host = process.env.HOST|| "localhost";
+const host = process.env.HOST|| "0.0.0.0";
 
 
 
