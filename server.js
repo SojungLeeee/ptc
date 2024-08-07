@@ -76,7 +76,7 @@ app.post('/submit', async (req, res) => {
     inputAge = inputAge || null;
     inputMajor = inputMajor || null;
 
-    const query = 'INSERT INTO testtable (name, gender, studentnum, phone, age, major, writedate) VALUES (?, ?, ?, ?, ?, ?, now())';
+    const query = 'INSERT INTO TESTTABLE (name, gender, studentnum, phone, age, major, writedate) VALUES (?, ?, ?, ?, ?, ?, now())';
 
     try {
         await db.query(query, [inputName, inputGender, inputStudentnumber, inputPhone, inputAge, inputMajor]);
